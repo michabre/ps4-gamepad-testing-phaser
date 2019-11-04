@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#game {
+    margin: 50px auto;
+    width: 800px;
+    height: 400px;
+}
