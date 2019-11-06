@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg4522"
+   width="16.907047"
+   height="25.383604"
+   viewBox="0 0 16.907047 25.383604"
+   sodipodi:docname="ps4share-button.svg"
+   inkscape:label="original"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="D:\Developer\JavaScript\Game-Development\learning-phaser\ps4-controller\assets\ps4controller-colourful.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata4528">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4526">
+    <marker
+       style="overflow:visible"
+       id="DistanceStart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DistanceStart"
+       inkscape:isstock="true">
+      <g
+         id="g2300"
+         style="fill:#f5ffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
+        <path
+           style="fill:#f5ffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.14999998;stroke-linecap:square;stroke-opacity:1"
+           d="M 0,0 H 2"
+           id="path2306"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#f5ffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-opacity:1"
+           d="M 0,0 13,4 9,0 13,-4 Z"
+           id="path2302"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#f5ffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-opacity:1"
+           d="M 0,-4 V 40"
+           id="path2304"
+           inkscape:connector-curvature="0" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5719"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill:#f5ffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,5.92,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview4524"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.4191542"
+     inkscape:cx="59.269975"
+     inkscape:cy="-80.09893"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer13">
+    <sodipodi:guide
+       position="91.916722,-53.267741"
+       orientation="0,1"
+       id="guide5123"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-129.86153,26.127647"
+       orientation="0,1"
+       id="guide5146"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5317"
+       originx="-150.11654"
+       originy="-246.28161" />
+    <sodipodi:guide
+       position="46.662223,150.52548"
+       orientation="1,0"
+       id="guide5527"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="144.14894,140.41575"
+       orientation="1,0"
+       id="guide5529"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="242.35779,124.52902"
+       orientation="1,0"
+       id="guide5531"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-37.875246,-24.064302"
+       orientation="1,0"
+       id="guide6022"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="304.58783,-17.689322"
+       orientation="0,1"
+       id="guide6292"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="left arrow"
+     style="display:inline"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:label="right arrow"
+     id="g5996"
+     inkscape:groupmode="layer"
+     style="display:inline"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     style="display:inline"
+     inkscape:groupmode="layer"
+     id="g6016"
+     inkscape:label="up arrow"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:label="down arrow"
+     id="g6020"
+     inkscape:groupmode="layer"
+     style="display:inline"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="left stick"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:label="right stick"
+     id="g6033"
+     inkscape:groupmode="layer"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="ps button"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:label="buttons"
+     id="g6040"
+     inkscape:groupmode="layer"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="share and options"
+     transform="translate(-150.11654,-49.934793)">
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6090-5"
+       cx="158.57007"
+       cy="62.626595"
+       rx="7.4535236"
+       ry="11.691802" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="trackpad"
+     transform="translate(-150.11654,-49.934793)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="top buttons"
+     transform="translate(-150.11654,-49.934793)" />
+</svg>

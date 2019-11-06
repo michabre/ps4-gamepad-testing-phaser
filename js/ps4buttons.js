@@ -1,0 +1,20 @@
+const ps4Buttons = {
+    0: {"name":"Cross", "x":532, "y":345, "sprite":"ps4button-circle"},
+    1: {"name":"Circle", "x":564, "y":312, "sprite":"ps4button-circle"},
+    2: {"name":"Square", "x":500, "y":312, "sprite":"ps4button-circle"},
+    3: {"name":"Triangle", "x":532, "y":280, "sprite":"ps4button-circle"},
+    4: {"name":"L1", "x":270, "y":244, "sprite":"ps4topleft-button"},
+    5: {"name":"R1", "x":530, "y":244, "sprite":"ps4topright-button"},
+    6: {"name":"L2", "x":270, "y":244, "sprite":"ps4topleft-button"},
+    7: {"name":"R2", "x":530, "y":244, "sprite":"ps4topright-button"},
+    8: {"name":"Share", "x":314, "y":274, "sprite":"ps4share-button"},
+    9: {"name":"Options", "x":488, "y":274, "sprite":"ps4share-button"},
+    10: {"name":"Left Stick Button", "x":332, "y":380, "sprite":"ps4stick"},
+    11: {"name":"Right Stick Button", "x":468, "y":380, "sprite":"ps4stick"},
+    12: {"name":"Up Arrow", "x":268, "y":290, "sprite":"ps4up-arrow"},
+    13: {"name":"Down Arrow", "x":268, "y":336, "sprite":"ps4down-arrow"},
+    14: {"name":"Left Arrow", "x":246, "y":312, "sprite":"ps4left-arrow"},
+    15: {"name":"Right Arrow", "x":290, "y":312, "sprite":"ps4right-arrow"},
+    16: {"name":"PS Button", "x":400, "y":374, "sprite":"ps4-button"},
+    17: {"name":"Trackpad", "x":400, "y":290, "sprite":"ps4trackpad"}
+};

@@ -22,28 +22,8 @@ let title;
 let controllerId;
 let buttonPressed;
 let controlStick;
+let active;
 const textColor = "rgb(0, 0, 0)";
-const ps4Buttons = {
-    0: {"name":"Cross"},
-    1: {"name":"Circle"},
-    2: {"name":"Square"},
-    3: {"name":"Triangle"},
-    4: {"name":"L1"},
-    5: {"name":"R1"},
-    6: {"name":"L2"},
-    7: {"name":"R2"},
-    8: {"name":"Share"},
-    9: {"name":"Options"},
-    10: {"name":"Left Stick Button"},
-    11: {"name":"Right Stick Button"},
-    12: {"name":"Up Arrow"},
-    13: {"name":"Down Arrow"},
-    14: {"name":"Left Arrow"},
-    15: {"name":"Right Arrow"},
-    16: {"name":"PS Button"},
-    17: {"name":"Trackpad"}
-};
-
 const game = new Phaser.Game(config);
 
 /**
@@ -51,7 +31,18 @@ const game = new Phaser.Game(config);
  */
 function preload ()
 {
-    this.load.image('ps4controller', 'assets/ps4controller.png');
+    this.load.svg('ps4controller', 'assets/ps4controller-shape.svg');
+    this.load.svg('ps4button-circle', 'assets/ps4button-circle.svg');
+    this.load.svg('ps4stick', 'assets/ps4stick.svg');
+    this.load.svg('ps4left-arrow', 'assets/ps4left-arrow.svg');
+    this.load.svg('ps4right-arrow', 'assets/ps4right-arrow.svg');
+    this.load.svg('ps4up-arrow', 'assets/ps4up-arrow.svg');
+    this.load.svg('ps4down-arrow', 'assets/ps4down-arrow.svg');
+    this.load.svg('ps4trackpad', 'assets/ps4trackpad.svg');
+    this.load.svg('ps4share-button', 'assets/ps4share-button.svg');
+    this.load.svg('ps4topleft-button', 'assets/ps4topleft-button.svg');
+    this.load.svg('ps4topright-button', 'assets/ps4topright-button.svg');
+    this.load.svg('ps4-button', 'assets/ps4-button.svg');
 }
 
 /**
@@ -60,7 +51,7 @@ function preload ()
 function create ()
 {
     // controller
-    this.add.image(400, 370, 'ps4controller');
+    this.add.sprite(400, 370, 'ps4controller');
 
     // info text
     title = this.add.text(16, 16, 'PS4 Controller', {
@@ -84,7 +75,6 @@ function create ()
         fontSize: '18px',
         fill: textColor
     });
-
 }
 
 function update ()
@@ -97,13 +87,21 @@ function update ()
     // id
     controllerId.setText('ID: ' + gamepad.id);
 
+    if(active) {
+        active.visible = false;
+    }
+
     // gamepad.axes
     if (gamepad.axes.length) {
         if( gamepad.axes[0].getValue() || gamepad.axes[1].getValue()) {
             controlStick.setText('Control Stick: Left');
+            active = this.add.sprite(332, 380, "ps4stick");
+            active.visible = true;
         }
         else if (gamepad.axes[2].getValue() || gamepad.axes[3].getValue()) {
             controlStick.setText('Control Stick: Right');
+            active = this.add.sprite(468, 380, "ps4stick");
+            active.visible = true;
         }
         else {}
     }
@@ -116,8 +114,11 @@ function update ()
                 return element;
             }
         });
+
         if (clicked) {
             buttonPressed.setText('Button Pressed: ' + ps4Buttons[clicked.index].name);
+            active = this.add.sprite(ps4Buttons[clicked.index].x, ps4Buttons[clicked.index].y, ps4Buttons[clicked.index].sprite);
+            active.visible = true;
         }
     }
 }
