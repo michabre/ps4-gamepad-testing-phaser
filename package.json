@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.12.1",
+    "minimist": "^1.2.5",
     "phaser": "^3.20.1"
   },
   "author": "michabre",
@@ -18,6 +19,3 @@
     "url": "https://github.com/michabre/ps4-gamepad-testing-phaser.git"
   }
 }
-
-
-
