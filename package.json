@@ -12,6 +12,9 @@
     "minimist": "^1.2.5",
     "phaser": "^3.24.1"
   },
+  "devDependencies": {
+    "ecstatic": "^3.3.2"
+  },
   "author": "michabre",
   "license": "MIT",
   "repository": {
