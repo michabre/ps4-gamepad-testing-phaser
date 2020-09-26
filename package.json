@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "http-server": "^0.12.1",
+    "http-server": "^0.12.3",
     "minimist": "^1.2.5",
-    "phaser": "^3.20.1"
+    "phaser": "^3.24.1"
   },
   "author": "michabre",
   "license": "MIT",
